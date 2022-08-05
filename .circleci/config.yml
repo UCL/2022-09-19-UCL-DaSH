@@ -35,22 +35,6 @@ jobs:
           command: bundle exec jekyll build -d html
 
       - run:
-          name: HTMLProofer tests
-          command: |
-            bundle exec htmlproofer ./html \
-              --allow-hash-href \
-              --check-html \
-              --disable-external
-
-      - run:
-          name: HTMLProofer with external
-          command: |
-             bundle exec htmlproofer ./html \
-               --allow-hash-href \
-               --check-html \
-               --http-status-ignore 302
-
-      - run:
           name: Jekyll re-build for local
           command: |
             echo "url: https://output.circle-artifacts.com" > circle.yml
