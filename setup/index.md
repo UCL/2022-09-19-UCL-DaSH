@@ -9,7 +9,7 @@ root: ..
 
 ## Unix-Shell
 
-#### 1. Have you got nano on your machine?
+### 1. Have you got nano on your machine?
 
 Check if it's there by opening a terminal and writing the following:
 
@@ -22,12 +22,13 @@ menu in the bottom.
 ![nano](./nano_example.png)
 Press `Ctrl + x` to exit.
 
-##### Would you like to use other text editor?
+#### Would you like to use other text editor?
 
-We recommend [Visual Studio Code][vscode]. There are many others, feel free to ask to the team if
-there's some other text editor you'd like to use.
+For your future work, nano would not be too helpful. 
+For that we'd recommend [Visual Studio Code][vscode]. 
+But There are many others, feel free to ask to the team if there's some other text editor you'd like to use (after the workshop).
 
-#### 3. Download the data needed for the workshop
+### 2. Download the data needed for the workshop
 
 You need to download some files to follow this lesson:
 
@@ -49,7 +50,7 @@ Do you get a warning or error message? Mention it to the teaching team before th
 
 ## Git
 
-#### 1. Git in your machine
+### 1. Git in your machine
 
 Check that it works by opening a **new** terminal window and execute:
 
@@ -71,7 +72,7 @@ bash: git: command not found
 
 Then the installation has not work properly
 
-#### 2. GitHub
+### 2. GitHub
 
 Create an account on [github](https://github.com/join) and make sure you remember
 your username and password.
@@ -79,7 +80,7 @@ your username and password.
 
 ## Python
 
-#### 1. Download the data needed for the workshop
+### 1. Download the data needed for the workshop
 
 
 You need to download some files to follow this lesson:
@@ -97,6 +98,6 @@ You can access this folder from the Unix shell with:
 $ cd ~/Desktop/python-novice-gapminder/data
 ~~~
 
-#### 2. Install the extra dependencies
+### 2. Check the extra dependencies
 
 ...
