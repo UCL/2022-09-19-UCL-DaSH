@@ -11,7 +11,7 @@ root: ..
 
 ### 1. Have you got nano on your machine?
 
-Check if it's there by opening a terminal and writing the following:
+Check if `nano` there by opening a terminal and writing the following:
 
 ~~~
 $ nano 
@@ -20,7 +20,7 @@ $ nano
 The terminal should show a screen with a bar on top saying `GNU nano` and with a
 menu in the bottom.
 ![nano](./nano_example.png)
-Press `Ctrl + x` to exit.
+Press <kbd>ctrl</kbd> + <kbd>x</kbd> to exit.
 
 #### Would you like to use other text editor?
 
