@@ -93,6 +93,9 @@ displayed if the 'eventbrite' field in the header is not set.
     <button type="button" class="btn btn-info">Register (£40)</button>
   </a>
 </p>
+<p class="text-center">
+  <b>Note: The registration costs are only used to cover the refreshments offered during the course. </b>
+</p>
 {% endif %}
 
 
